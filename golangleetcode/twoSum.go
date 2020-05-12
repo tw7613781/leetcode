@@ -1,4 +1,4 @@
-package leetcode
+package golangleetcode
 
 func twoSum(nums []int, target int) []int {
 	cache := make(map[int]int)
