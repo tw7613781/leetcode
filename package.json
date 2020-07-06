@@ -1,0 +1,28 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode coding practise repository",
+  "main": "Array_Find_All_Duplicates_in_an_Array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw7613781/leetcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tw7613781/leetcode/issues"
+  },
+  "homepage": "https://github.com/tw7613781/leetcode#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
