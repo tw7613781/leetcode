@@ -1,15 +1,16 @@
 const assert = require('assert')
 
-var firstUniqChar = function (s) {
-
+const func = (s, t) => {
 }
 
-let s, ret
+let s, t, ret
 
-s = 'leetcode'
-ret = firstUniqChar(s)
-assert.equal(ret, 0)
+s = 'anagram'
+t = 'nagaram'
+ret = func(s, t)
+assert.equal(ret, true)
 
-s = 'loveleetcode'
-ret = firstUniqChar(s)
-assert.equal(ret, 2)
+s = 'rat'
+t = 'car'
+ret = func(s, t)
+assert.equal(ret, false)
