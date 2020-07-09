@@ -3,14 +3,16 @@ const assert = require('assert')
 const func = (s, t) => {
 }
 
-let s, t, ret
+let s, t, exp, ret
 
-s = 'anagram'
-t = 'nagaram'
+s = ''
+t = ''
+exp = ''
 ret = func(s, t)
-assert.equal(ret, true)
+assert.equal(ret, exp)
 
-s = 'rat'
-t = 'car'
+s = ''
+t = ''
+exp = ''
 ret = func(s, t)
-assert.equal(ret, false)
+assert.equal(ret, exp)
